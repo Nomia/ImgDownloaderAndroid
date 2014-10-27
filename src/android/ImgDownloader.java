@@ -6,7 +6,7 @@
  * ported to Phonegap 3.0 by Guillaume Charhon - Smart Mobile Software 
  */
 
-package do.okay.phonegap.ImgDownloader;
+package com.okay.phonegap.ImgDownloader;
 
 import org.json.JSONArray;
 import org.json.JSONException;
