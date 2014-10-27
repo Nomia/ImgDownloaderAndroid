@@ -8,7 +8,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <keywords>gallery,download,image,picture,file</keywords>
-    <js-module src="www/imgdownload.js" name="ImgDownloader">
+    <js-module src="www/imgdownloader.js" name="ImgDownloader">
         <clobbers target="clipboard" />
     </js-module>
     
