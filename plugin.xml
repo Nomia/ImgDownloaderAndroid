@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="do.okay.phonegap.ImgDownloader" version="1.0">
+    id="com.okay.phonegap.ImgDownloader" version="1.0">
     <name>ImgDownloader</name>
     <description>This plugin download image to SD Card Pictures folder.</description>
     <license>MIT License</license>
@@ -17,11 +17,11 @@
 
         <config-file target="config.xml" parent="/*">
             <feature name="ImgDownloader">
-                <param name="android-package" value="do.okay.phonegap.ImgDownloader" />
+                <param name="android-package" value="com.okay.phonegap.ImgDownloader" />
             </feature>
         </config-file>
         
         <!-- cordova plugin src files -->
-        <source-file src="src/android/ImgDownloader.java" target-dir="src/do/okay/phonegap/ImgDownloader" />
+        <source-file src="src/android/ImgDownloader.java" target-dir="src/com/okay/phonegap/ImgDownloader" />
     </platform>
 </plugin>
