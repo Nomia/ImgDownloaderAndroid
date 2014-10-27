@@ -17,7 +17,7 @@
 
         <config-file target="config.xml" parent="/*">
             <feature name="ImgDownloader">
-                <param name="android-package" value="com.saatcioglu.phonegap.ImgDownloader" />
+                <param name="android-package" value="do.okay.phonegap.ImgDownloader" />
             </feature>
         </config-file>
         
