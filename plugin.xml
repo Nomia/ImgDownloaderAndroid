@@ -9,7 +9,7 @@
     </engines>
     <keywords>gallery,download,image,picture,file</keywords>
     <js-module src="www/imgdownloader.js" name="ImgDownloader">
-        <clobbers target="clipboard" />
+        <clobbers target="ImgDownloader" />
     </js-module>
     
     <!-- android -->
